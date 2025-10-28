@@ -64,17 +64,18 @@ $card-width: 450px;
         }
     }
 }
-
-@for $i from 0 through 10 {
-    $value: $i * 0.1;
-    
-    meter[value="#{$value}"]::-webkit-meter-optimum-value {
-        @if $value >= 1 {
-            background: $very-dark-gr;
-        } @else if $value >= 0.5 {
-            background: $dark-gr;
-        } @else {
-            background: $light-gr;
+.cat-3 {
+    @for $i from 0 through 10 {
+        $value: $i * 0.1;
+        
+        meter[value="#{$value}"]::-webkit-meter-optimum-value {
+            @if $value >= 1 {
+                background: $very-dark-gr;
+            } @else if $value >= 0.5 {
+                background: $dark-gr;
+            } @else {
+                background: $light-gr;
+            }
         }
     }
 }

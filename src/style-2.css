@@ -27,47 +27,37 @@
   border-radius: 6px;
 }
 
-meter[value="0"]::-webkit-meter-optimum-value {
+.cat-3 meter[value="0"]::-webkit-meter-optimum-value {
   background: rgb(119, 195, 127);
 }
-
-meter[value="0.1"]::-webkit-meter-optimum-value {
+.cat-3 meter[value="0.1"]::-webkit-meter-optimum-value {
   background: rgb(119, 195, 127);
 }
-
-meter[value="0.2"]::-webkit-meter-optimum-value {
+.cat-3 meter[value="0.2"]::-webkit-meter-optimum-value {
   background: rgb(119, 195, 127);
 }
-
-meter[value="0.3"]::-webkit-meter-optimum-value {
+.cat-3 meter[value="0.3"]::-webkit-meter-optimum-value {
   background: rgb(119, 195, 127);
 }
-
-meter[value="0.4"]::-webkit-meter-optimum-value {
+.cat-3 meter[value="0.4"]::-webkit-meter-optimum-value {
   background: rgb(119, 195, 127);
 }
-
-meter[value="0.5"]::-webkit-meter-optimum-value {
+.cat-3 meter[value="0.5"]::-webkit-meter-optimum-value {
   background: rgb(63, 129, 60);
 }
-
-meter[value="0.6"]::-webkit-meter-optimum-value {
+.cat-3 meter[value="0.6"]::-webkit-meter-optimum-value {
   background: rgb(63, 129, 60);
 }
-
-meter[value="0.7"]::-webkit-meter-optimum-value {
+.cat-3 meter[value="0.7"]::-webkit-meter-optimum-value {
   background: rgb(63, 129, 60);
 }
-
-meter[value="0.8"]::-webkit-meter-optimum-value {
+.cat-3 meter[value="0.8"]::-webkit-meter-optimum-value {
   background: rgb(63, 129, 60);
 }
-
-meter[value="0.9"]::-webkit-meter-optimum-value {
+.cat-3 meter[value="0.9"]::-webkit-meter-optimum-value {
   background: rgb(63, 129, 60);
 }
-
-meter[value="1"]::-webkit-meter-optimum-value {
+.cat-3 meter[value="1"]::-webkit-meter-optimum-value {
   background: rgb(16, 80, 24);
 }
 
