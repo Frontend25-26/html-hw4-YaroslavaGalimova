@@ -1,0 +1,184 @@
+@charset "UTF-8";
+.table-3 {
+  width: 100%;
+}
+.table-3 td {
+  padding: 6px;
+}
+.table-3 td:first-child {
+  width: 50%;
+}
+.table-3 td:last-child {
+  text-align: right;
+  padding-right: 15px;
+}
+.table-3 meter {
+  width: 100%;
+  height: 15px;
+  border-radius: 6px;
+}
+.table-3 meter::-webkit-meter-bar {
+  background: #e0e0e0;
+  border-radius: 6px;
+  border: none;
+}
+.table-3 meter::-webkit-meter-optimum-value {
+  background: grey;
+  border-radius: 6px;
+}
+
+meter[value="0"]::-webkit-meter-optimum-value {
+  background: rgb(119, 195, 127);
+}
+
+meter[value="0.1"]::-webkit-meter-optimum-value {
+  background: rgb(119, 195, 127);
+}
+
+meter[value="0.2"]::-webkit-meter-optimum-value {
+  background: rgb(119, 195, 127);
+}
+
+meter[value="0.3"]::-webkit-meter-optimum-value {
+  background: rgb(119, 195, 127);
+}
+
+meter[value="0.4"]::-webkit-meter-optimum-value {
+  background: rgb(119, 195, 127);
+}
+
+meter[value="0.5"]::-webkit-meter-optimum-value {
+  background: rgb(63, 129, 60);
+}
+
+meter[value="0.6"]::-webkit-meter-optimum-value {
+  background: rgb(63, 129, 60);
+}
+
+meter[value="0.7"]::-webkit-meter-optimum-value {
+  background: rgb(63, 129, 60);
+}
+
+meter[value="0.8"]::-webkit-meter-optimum-value {
+  background: rgb(63, 129, 60);
+}
+
+meter[value="0.9"]::-webkit-meter-optimum-value {
+  background: rgb(63, 129, 60);
+}
+
+meter[value="1"]::-webkit-meter-optimum-value {
+  background: rgb(16, 80, 24);
+}
+
+.cat-3 {
+  width: 450px;
+  background: rgb(255, 255, 255);
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgb(63, 129, 60);
+  border: 2px solid rgb(63, 129, 60);
+  transition: all 0.6s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  padding: 0 20px;
+  margin: 20px;
+}
+.cat-3 figure {
+  margin: 20px 0;
+  text-align: center;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+.cat-3 figure:hover {
+  transform: scale(1.05);
+}
+.cat-3 figure img {
+  border-radius: 10px;
+  display: block;
+  margin: 0 auto;
+  max-width: 300px;
+  width: auto;
+}
+.cat-3 figure figcaption {
+  margin-top: 10px;
+  color: rgb(63, 129, 60);
+}
+
+.cat-info-3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.cat-info-3 p {
+  line-height: 1.5;
+  padding: 15px;
+  background: rgba(119, 195, 127, 0.1);
+  border-top: 4px dashed rgba(63, 129, 60, 0.5);
+  border-bottom: 4px dashed rgba(63, 129, 60, 0.5);
+  border-left: 4px solid rgb(63, 129, 60);
+  border-right: 4px solid rgb(63, 129, 60);
+}
+.cat-info-3 p::first-letter {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: rgb(63, 129, 60);
+}
+
+.cat-3 blockquote {
+  font-style: italic;
+  margin: 0 0 10px 0;
+  padding: 3px;
+  border: none;
+  box-shadow: 0 4px 8px #565656;
+  border: 2px solid #565656;
+}
+.cat-3 blockquote::before {
+  content: "🍾";
+  background-color: white;
+  border-radius: 15px;
+  border: 1px solid rgb(63, 129, 60);
+  padding: 3px;
+  position: relative;
+  left: -15px;
+  margin-right: 5px;
+}
+
+.cat-3 cite {
+  font-size: 0.9em;
+  color: #898989;
+  font-style: normal;
+}
+
+.cat-3 .like-label {
+  font-size: 50px;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  text-align: center;
+  margin-top: auto;
+}
+.cat-3 .like-label input[type=checkbox] {
+  display: none;
+}
+.cat-3 .like-label .heart {
+  transition: all 0.3s ease-in-out;
+  text-shadow: 0 0 5px rgb(63, 129, 60);
+}
+.cat-3 .like-label:hover .heart {
+  transform: scale(1.2);
+}
+.cat-3 .like-label .like-1:checked + .heart {
+  color: red;
+}
+
+.cat-3 .like-label.hug {
+  font-size: 18px;
+  color: rgb(16, 80, 24);
+  margin-bottom: 20px;
+}
+.cat-3 .like-label.hug .like-1:checked + .heart {
+  color: green;
+  text-shadow: none;
+}
+.cat-3 .like-label.hug .like-1:checked + .heart::after {
+  content: "🍷✔";
+}/*# sourceMappingURL=style-2.css.map */

@@ -87,7 +87,7 @@ header {
 div.cat-1 {
     margin: 1em;
     padding: 1em;
-    width: var(--card-width);
+    width: min(var(--card-width), 25%);
     background: var(--card-color);
     border: 1px solid var(--raspberry-color);
     border-radius: 10px;
@@ -101,6 +101,7 @@ div.cat-1 {
 
         img {
             border-radius: 10px;
+            width: 100%;
         }
 
         &:hover{
