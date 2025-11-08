@@ -1,0 +1,29 @@
+.table-2 meter::-webkit-meter-bar {
+    background: #e0e0e0;
+    border-radius: 6px;
+    border: none;
+}
+
+.table-2 meter::-webkit-meter-optimum-value {
+    background: grey;
+    border-radius: 6px;
+}
+
+.table-2 :where(tr:nth-child(4), tr:nth-child(5)) meter::-webkit-meter-optimum-value {
+    background: green;
+    border: 1px solid darkgreen;
+    box-shadow: 0 0 10px darkgreen;
+}
+
+.w-50 {
+    padding: 6px !important;
+}
+
+.cat-2 {
+    box-shadow: 0 5px 15px orangered;
+}
+
+.cat-2 figure:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s;
+}
